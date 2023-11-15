@@ -105,17 +105,13 @@ while($row = mysqli_fetch_row($req)){
 
 <?php
 
-    
 }
 
 ?>
 
-
 </tbody>
-
-        
-        
     </table>
+    <a href="index.php">Table de Equipe</a>
 </div>
 
 </body>

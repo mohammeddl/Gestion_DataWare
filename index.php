@@ -59,21 +59,16 @@ while($row = mysqli_fetch_row($req)){
                 </td>
             </tr>
 
-
 <?php
 
-    
 }
 
 ?>
-
-
 </tbody>
-
-        
-        
-    </table>
+</table>
+<a href="index2.php">Table de Membre</a>
 </div>
+
 
 </body>
 </html>
