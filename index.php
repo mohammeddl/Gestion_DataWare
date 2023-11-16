@@ -16,7 +16,7 @@ include 'config.php';
 <body>
     
 
-<div class="relative overflow-x-auto h-screen flex justify-center items-center">
+<div class="relative overflow-x-auto mt-[100px] flex justify-center items-center">
     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
@@ -66,8 +66,12 @@ while($row = mysqli_fetch_row($req)){
 ?>
 </tbody>
 </table>
-<a href="index2.php">Table de Membre</a>
+
+
 </div>
+<a href="index2.php"><button class="mt-[50px] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+Table de Membre
+</button></a>
 
 
 </body>

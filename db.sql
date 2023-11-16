@@ -26,5 +26,28 @@
 -- INSERT INTO membre (nom, prenom, email, num, rol, stt, equipe_id)
 -- VALUES ("el alaoui", "ahmed", "alaoui@gmail.com", "0634434345", "scrumMaster", "admin", 1);
 
+-- INSERT INTO membre (nom, prenom, email, num, rol, stt, equipe_id)
+-- VALUES ("smith", "john", "john.smith@example.com", "0123456789", "developer", "active", 6);
+
+-- INSERT INTO membre (nom, prenom, email, num, rol, stt, equipe_id)
+-- VALUES ("jones", "sara", "sara.jones@example.com", "9876543210", "productOwner", "inactive", 4);
+
+-- INSERT INTO membre (nom, prenom, email, num, rol, stt, equipe_id)
+-- VALUES ("brown", "emily", "emily.brown@example.com", "5551234567", "designer", "inactive", 1);
+
+
 
 -- INSERT INTO `equipe` (`id`, `nom`, `dateDeCreation`) VALUES (NULL, 'dfd', '2023-11-28');
+
+-- INSERT INTO equipe (id, nom, dateDeCreation)
+-- VALUES (NULL, 'dfd', '2023-11-28');
+
+-- INSERT INTO equipe (id, nom, dateDeCreation)
+-- VALUES (NULL, 'team1', '2023-12-05');
+
+
+
+-- DELETE FROM equipe WHERE nom = 'dfd';
+-- UPDATE membre
+-- SET num = "5551112233"
+-- WHERE nom = "jones" AND prenom = "sara" AND email = "sara.jones@example.com";
