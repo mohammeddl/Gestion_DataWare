@@ -14,7 +14,9 @@ include 'config.php';
     <title>dataware</title>
 </head>
 <body>
-    
+
+
+
 
 <div class="relative overflow-x-auto mt-[100px] flex justify-center items-center">
     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">

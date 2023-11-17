@@ -3,6 +3,7 @@
 
 include 'config.php';
 
+
 ?>
 
 <!DOCTYPE html>
@@ -14,7 +15,8 @@ include 'config.php';
     <title>dataware</title>
 </head>
 <body>
-    
+
+
 
 <div class="relative overflow-x-auto mt-[100px] flex justify-center items-center">
     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
@@ -45,7 +47,6 @@ include 'config.php';
                 equipe
                 </th>
                 
-                
         </thead>
         <tbody>
         <?php
@@ -55,7 +56,6 @@ $req = mysqli_query($conn, $sql);
 while($row = mysqli_fetch_row($req)){
 
     ?>
-    
             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 <?php
@@ -100,9 +100,6 @@ while($row = mysqli_fetch_row($req)){
                 
             </tr>
             
-    
-
-
 <?php
 
 }
@@ -114,6 +111,9 @@ while($row = mysqli_fetch_row($req)){
 </div>
 <a href="index.php"><button class="mt-[50px] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
     Table de Equipe
+</button></a>
+<a href="ajouter.php"><button class="mt-[50px] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+Ajouter
 </button></a>
 
 </body>
